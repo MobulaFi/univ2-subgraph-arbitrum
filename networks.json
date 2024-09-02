@@ -1,8 +1,8 @@
 {
-	"zklink": {
+	"arbitrum": {
 		"Factory": {
-			"address": "0x87929083ac2215cF3CE4936857D314aF6687C978",
-			"startBlock": 79192
+			"address": "0xf1D7CC64Fb4452F05c498126312eBE29f30Fbcf9",
+			"startBlock": 150442611
 		}
 	}
 }
