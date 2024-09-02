@@ -5,7 +5,7 @@ import { Bundle, Pair, Token } from '../types/schema'
 import { ADDRESS_ZERO, ONE_BD, UNTRACKED_PAIRS, ZERO_BD, factoryContract } from './helpers'
 
 const WETH_ADDRESS = '0x8280a4e7d5b3b658ec4580d3bc30f5e50454f169'
-const USDC_WETH_PAIR = '0x4eaDd78a23E152FeC2b63F0f5A3423bDa2207E9b' // created 429527
+const USDC_WETH_PAIR = '0x82af49447d8a07e3bd95bd0d56f35241523fbab1' // created 55
 
 export function getEthPriceInUSD(): BigDecimal {
   // fetch eth prices for each stablecoin
@@ -20,7 +20,7 @@ export function getEthPriceInUSD(): BigDecimal {
 
 // token where amounts should contribute to tracked volume and liquidity
 let WHITELIST: string[] = [
-  '0x8280a4e7d5b3b658ec4580d3bc30f5e50454f169', // WETH
+  '0x82af49447d8a07e3bd95bd0d56f35241523fbab1', // WETH
 ]
 
 // minimum liquidity required to count towards tracked volume for pairs with small # of Lps
